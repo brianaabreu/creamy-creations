@@ -188,3 +188,89 @@ code {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+@media only screen and (max-width:500px) {
+  .Header {
+    display: flex;
+    flex-wrap: wrap;
+    border:none;
+    text-align: center;
+    justify-content: center;
+    margin:0;
+    width: 100%;
+    border-bottom: 2px rgba(199, 199, 199, 0.496) solid;
+    border-width: 100%
+  }
+
+  .navBar a {
+    text-decoration: none;
+    color: #FFB0B0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    transition: 2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  
+  .navBar a:hover{
+    text-decoration: underline;
+  }
+  
+  .navBar {
+    margin-top: 0px;
+    
+  }
+
+  .topPage{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .conePhoto{
+    width:80%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  
+  .slogan {
+    color: #FFB0B0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+  }
+  
+  .orderButton {
+    text-decoration: none;
+    color: white;
+    background-color: #FF9797;
+    font-family: 'Oswald', sans-serif;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    border:1px white solid;
+    box-shadow: 3px 3px 3px 3px rgba(136, 136, 136, 0.211);
+  }
+  
+  .orderButton:hover {
+    background-color: white;
+    color: #FFB0B0;
+    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+  }
+
+  .footer {
+    border-top: 2px rgba(199, 199, 199, 0.496) solid;
+    width: 100%;
+    border-width: 100%;
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  
+  .footer p {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+}

@@ -3,6 +3,8 @@ import { Header } from "../header/header";
 import aboutCone from "../../img/aboutcone.png"
 import "../../App.css"
 import CarouselCone from "../carousel/carousel";
+import Footer from '../footer/footer';
+
 
 export const About = () => {
 
@@ -25,7 +27,7 @@ export const About = () => {
                     </p>
                 </div>
             </div>
-            
+            <Footer />
         </div>
     )
 }

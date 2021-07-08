@@ -3,6 +3,7 @@ import { Header } from "../header/header";
 import { Button, FormGroup, Label, Input, CustomInput } from 'reactstrap';
 import { Order } from "../../actions/order";
 import { useDispatch } from 'react-redux';
+import Footer from '../footer/footer';
 
 
 
@@ -89,12 +90,12 @@ export const OrderPost = () => {
                                 </div>
                         </div>
                     </FormGroup>
-                    <Button onClick={refreshPage} type="submit" style={{ border: 'none', fontFamily: 'Oswald, sans-serif', marginTop: '25px', width: '50%', backgroundColor: '#FFB0B0' }}>Submit</Button>
+                    <Button className="orderSubmitBtn" onClick={refreshPage} type="submit" style={{ border: 'none', fontFamily: 'Oswald, sans-serif', marginTop: '25px', width: '50%', backgroundColor: '#FF9797' }}>Submit</Button>
 
                 </FormGroup>
 
             </div>
-            
+            <Footer />
         </div>
     )
 }

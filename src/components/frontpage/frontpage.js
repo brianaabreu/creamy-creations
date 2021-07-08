@@ -3,6 +3,7 @@ import "./../../App.css";
 import ConePhoto from '../../img/conePhoto.png'
 import { Link } from 'react-router-dom';
 import { Header } from "../header/header";
+import Footer from '../footer/footer';
 
 export const Frontpage = () => {
 
@@ -24,6 +25,9 @@ export const Frontpage = () => {
                     </Link>
                 </div>
             </div>
+
+            <Footer/>
+
         </div>
 
   

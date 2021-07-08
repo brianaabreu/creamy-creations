@@ -18,6 +18,7 @@ import Oreos from '../../img/oreos.jpg';
 import Strawberries from '../../img/strawberries.png'
 import Crackers from '../../img/graham.jpg';
 import Brownies from "../../img/brownies.png"
+import Footer from '../footer/footer';
 
 
 export const Menu = () => {
@@ -163,6 +164,8 @@ export const Menu = () => {
                 </Link>
 
             </div>
+
+            <Footer />
             
         </div>
     )

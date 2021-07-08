@@ -66,7 +66,7 @@ code {
 .orderButton {
   text-decoration: none;
   color: white;
-  background-color: #FFB0B0;
+  background-color: #FF9797;
   font-family: 'Oswald', sans-serif;
   padding: 5px 15px 5px 15px;
   border-radius: 5px;
@@ -106,6 +106,7 @@ code {
 .menuContainer h4{
   color: #60e8f7;
   font-family: 'Oswald', sans-serif;
+  margin-bottom: 65px;
 
 }
 .Cones{
@@ -115,7 +116,7 @@ code {
 .orderButtonMenu {
   text-decoration: none;
   color: white;
-  background-color: #FFB0B0;
+  background-color: #FF9797;
   font-family: 'Oswald', sans-serif;
   padding: 5px 15px 5px 15px;
   border-radius: 5px;
@@ -127,7 +128,7 @@ code {
 
 .orderButtonMenu:hover {
   background-color: white;
-  color: #FFB0B0;
+  color: #FF9797;
   transition: color 0.5s, transform 0.2s, background-color 0.2s;
 }
 
@@ -172,4 +173,18 @@ code {
   display: grid;
   margin-top: 50px;
   grid-template-columns: 1fr 1fr;
+}
+
+.footer {
+  border-top: 2px rgba(199, 199, 199, 0.496) solid;
+  width: 90%;
+  border-width: 100%;
+  margin-top: 60px;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.footer p {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

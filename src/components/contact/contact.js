@@ -4,6 +4,7 @@ import React, {useState, useEffect} from 'react';
 import { useDispatch } from 'react-redux';
 import { createMessage } from '../../actions/contact';
 import {useSelector} from 'react-redux';
+import Footer from '../footer/footer';
 
 
 
@@ -25,7 +26,7 @@ const Contact = () => {
             <div>
                 <Header />
                 <div style={{ paddingTop: '50px', paddingBottom: '50px', paddingRight: '200px', paddingLeft: '200px', textAlign: '-webkit-center', width: '100%' }}>
-                    <Form className="contactWrapper" autoComplete="off" noValidate onSubmit={handleSubmit}>
+                    <Form style={{width:'50%'}} className="contactWrapper" autoComplete="off" noValidate onSubmit={handleSubmit}>
                         <h1 style={{ color: 'black' }}>Contact Us</h1>
                         <FormGroup>
                             <Label for="Name">Name</Label>
@@ -66,10 +67,11 @@ const Contact = () => {
                                     })}
                                 placeholder="Your message here" />
                         </FormGroup>
-                        <Button onClick={refreshPage} type="submit" style={{ border: 'none', fontFamily: 'Oswald, sans-serif', marginTop: '25px', width: '50%', backgroundColor: '#FFB0B0' }}>Submit</Button>
+                        <Button onClick={refreshPage} type="submit" style={{ border: 'none', fontFamily: 'Oswald, sans-serif', marginTop: '25px', width: '50%', backgroundColor: '#FF9797' }}>Submit</Button>
 
                     </Form>
                 </div>
+                <Footer />
             </div >
         )
     }

@@ -12,7 +12,7 @@ export const Header = () => {
                     <img className="Logo" src={LogoTwo} alt="logo" />
                 </Link>
                 </div>
-                <div className="navBar" style={{marginRight:"60px"}}>
+                <div className="navBar">
                     <nav>
                         <Link to="/menu">
                             <a style={{color: '#FFB0B0'}} href="#">Menu</a>

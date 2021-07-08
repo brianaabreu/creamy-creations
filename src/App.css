@@ -41,6 +41,7 @@ code {
 .navBar {
   margin-top: 65px;
   float: left;
+  margin-right:60px;
 }
 
 .topPage{
@@ -209,6 +210,7 @@ code {
     font-size: 20px;
     transition: 2s ease-in-out;
     display: flex;
+    margin:0;
     justify-content: center;
     padding-bottom: 10px;
   }
@@ -219,7 +221,7 @@ code {
   
   .navBar {
     margin-top: 0px;
-    
+    margin-right: 0;
   }
 
   .topPage{
@@ -258,6 +260,60 @@ code {
     color: #FFB0B0;
     transition: color 0.5s, transform 0.2s, background-color 0.2s;
   }
+
+  .menuContainer {
+    text-align: center;
+    margin-top: 50px;
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .menuContainer img {
+    max-width: 150px;
+    transition: all .2s ease-in-out;
+    
+  }
+  
+  .menuContainer img:hover{
+    transform: scale(1.1); 
+  }
+  
+  .menuContainer h1{
+    color: #FFB0B0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+  }
+  
+  .menuContainer h4{
+    color: #60e8f7;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 65px;
+  
+  }
+  .Cones{
+    text-align: center;
+  }
+  
+  .orderButtonMenu {
+    text-decoration: none;
+    color: white;
+    background-color: #FF9797;
+    font-family: 'Oswald', sans-serif;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    border:1px white solid;
+    box-shadow: 3px 3px 3px 3px rgba(136, 136, 136, 0.211);
+    font-size: 25px;
+    margin-bottom: 100px;
+  }
+  
+  .orderButtonMenu:hover {
+    background-color: white;
+    color: #FF9797;
+    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+  }
+  
 
   .footer {
     border-top: 2px rgba(199, 199, 199, 0.496) solid;

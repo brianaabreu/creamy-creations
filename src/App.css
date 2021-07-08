@@ -1,38 +1,175 @@
-.App {
+.App{
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Header {
+  width: 90%;
+  margin-left: 70px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-bottom: 2px rgba(199, 199, 199, 0.496) solid;
+  border-width: 100%
+}
+
+.navBar a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #FFB0B0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  transition: 2s ease-in-out;
+}
+
+.navBar a:hover{
+  text-decoration: underline;
+}
+
+.navBar {
+  margin-top: 65px;
+  float: left;
+}
+
+.topPage{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.conePhoto{
+  width:80%;
+  margin-top: 100px;
+  margin-left: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slogan {
+  color: #FFB0B0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.orderButton {
+  text-decoration: none;
   color: white;
+  background-color: #FFB0B0;
+  font-family: 'Oswald', sans-serif;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  border:1px white solid;
+  box-shadow: 3px 3px 3px 3px rgba(136, 136, 136, 0.211);
 }
 
-.App-link {
-  color: #61dafb;
+.orderButton:hover {
+  background-color: white;
+  color: #FFB0B0;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menuContainer {
+  text-align: center;
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.menuContainer img {
+  max-width: 150px;
+  transition: all .2s ease-in-out;
+  
+}
+
+.menuContainer img:hover{
+  transform: scale(1.1); 
+}
+
+.menuContainer h1{
+  color: #FFB0B0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+
+.menuContainer h4{
+  color: #60e8f7;
+  font-family: 'Oswald', sans-serif;
+
+}
+.Cones{
+  text-align: center;
+}
+
+.orderButtonMenu {
+  text-decoration: none;
+  color: white;
+  background-color: #FFB0B0;
+  font-family: 'Oswald', sans-serif;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  border:1px white solid;
+  box-shadow: 3px 3px 3px 3px rgba(136, 136, 136, 0.211);
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+.orderButtonMenu:hover {
+  background-color: white;
+  color: #FFB0B0;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s;
+}
+
+.orderContainer {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.orderContainer h1 {
+  color: #FFB0B0;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 30px;
+  font-size: 30px;;
+}
+
+.orderContainer Input {
+  margin-bottom: 30px;
+}
+
+.checkbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.imagecone {
+  width: 80%;
+  margin-left: 80px;
+}
+
+.coneabout {
+  margin-top: 130px;
+  text-align: center;
+  color: #FFB0B0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+.about {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 1fr 1fr;
 }

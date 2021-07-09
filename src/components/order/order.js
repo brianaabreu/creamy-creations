@@ -9,7 +9,7 @@ import Footer from '../footer/footer';
 
 export const OrderPost = () => {
 
-    const [postOrder, setPostOrder] = useState({Name: String,  flavors: String, toppings: String});
+    const [postOrder, setPostOrder] = useState({name: String,  flavors: String, toppings: String});
     const dispatch = useDispatch();
 
     const handleSubmit = async (e) => {
@@ -26,14 +26,14 @@ export const OrderPost = () => {
         <div>
             <Header />
 
-            <div className="orderContainer" style={{ paddingTop: '50px', paddingBottom: '50px',paddingRight:'200px', paddingLeft:'200px', textAlign: '-webkit-center', width: '100%'}} >
+            <div className="orderContainer" >
                 <FormGroup autoComplete="off" noValidate onSubmit={handleSubmit}>
                     <h1 className="ConeTitle" for="exampleSelect">Select Cone!</h1>
                     <Input
                         type="select"
                         name="Select Cone!"
                         id="exampleSelect"
-                        value={postOrder.Name}
+                        value={postOrder.name}
                         onChange={(e) => 
                             setPostOrder({
                                 ...postOrder, Name:e.target.value

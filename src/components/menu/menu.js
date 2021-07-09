@@ -41,22 +41,22 @@ export const Menu = () => {
                         justifyContent: 'center',
                     }}>
 
-                        <div className="Waffle" style={{marginRight:'30PX'}}>
-                            <img src={Waffle} style={{ width: '100px'}}></img>
+                        <div className="Waffle">
+                            <img src={Waffle} style={{ maxWidth: '100px'}}></img>
                             <h4 style={{ marginBottom: '60' }}>Waffle</h4>
                         </div>
                     
-                        <div className="Cake" style={{marginRight:'30PX'}}>
+                        <div className="Cake" >
                             <img src={Cake} style={{maxWidth: '100px'}}></img>
                             <h4 style={{marginBottom: '60'}}>Sugar</h4>
                         </div>
 
-                        <div className="Chococone" style={{marginRight:'30PX'}}>
+                        <div className="Chococone">
                             <img src={chococone} style={{maxWidth: '90px'}}></img>
                             <h4 style={{marginBottom: '60'}}>Chocolate-Dipped</h4>
                         </div>
 
-                        <div className="bowl" style={{marginRight:'30PX'}}>
+                        <div className="bowl" >
                             <img src={bowl} style={{maxWidth: '180px'}}></img>
                             <h4 style={{marginBottom: '60'}}>Bowl</h4>
                         </div>
@@ -76,33 +76,33 @@ export const Menu = () => {
                         justifyContent: 'center',
                     }}>
 
-                    <div className="Chocoscoop" style={{marginRight:'30PX'}}>
+                    <div className="Chocoscoop">
                         <img src={Chocoscoop} style={{maxWidth: '200px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Chocolate</h4>
                     </div>
 
-                    <div className="Vanilla" style={{marginRight:'30PX'}}>
+                    <div className="Vanilla">
                         <img src={Vanilla} style={{maxWidth: '190px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Vanilla</h4>
                     </div>
                     
-                    <div className="Strawberry" style={{marginRight:'30PX'}}>
+                    <div className="Strawberry">
                         <img src={Strawberry} style={{maxWidth: '200px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Strawberry</h4>
                     </div>
 
-                    <div className="Coffee" style={{marginRight:'30PX'}}>
+                    <div className="Coffee">
                         <img src={Coffee} style={{maxWidth: '190px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Coffee</h4>
                     </div>
                     
-                    <div className="Pistachio" style={{marginRight:'30PX'}}>
+                    <div className="Pistachio">
                         <img src={Pistachio} style={{maxWidth: '170px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Pistachio</h4>
                     </div>
                          
                     
-                    <div className="CookieDough" style={{marginRight:'30PX'}}>
+                    <div className="CookieDough">
                         <img src={cookiedough} style={{maxWidth: '190px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Cookie Dough</h4>
                     </div>
@@ -121,37 +121,37 @@ export const Menu = () => {
                         justifyContent: 'center',
                     }}>
 
-                    <div className="Chips" style={{marginRight:'30PX'}}>
+                    <div className="Chips" >
                         <img src={Chips} style={{maxWidth: '140px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Chocolate Chips</h4>
                     </div>
                         
-                    <div className="Bananas" style={{marginRight:'30PX'}}>
+                    <div className="Bananas">
                         <img src={bananas} style={{maxWidth: '140px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Sliced Bananas</h4>
                     </div>
                     
-                    <div className="Syrup" style={{marginRight:'30PX'}}>
+                    <div className="Syrup">
                         <img src={syrup} style={{maxWidth: '60px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Chocolate Syrup</h4>
                     </div>
                         
-                    <div className="Oreos" style={{marginRight:'30PX'}}>
+                    <div className="Oreos">
                         <img src={Oreos} style={{maxWidth: '140px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Oreos</h4>
                     </div>
     
-                    <div className="Strawberries" style={{marginRight:'30PX'}}>
+                    <div className="Strawberries">
                         <img src={Strawberries} style={{maxWidth: '140px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Sliced Strawberries</h4>
                     </div>
                         
-                    <div className="Crackers" style={{marginRight:'30PX'}}>
+                    <div className="Crackers">
                         <img src={Crackers} style={{maxWidth: '140px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Graham Crackers</h4>
                     </div>
                         
-                    <div className="Brownies" style={{marginRight:'30PX'}}>
+                    <div className="Brownies">
                         <img src={Brownies} style={{maxWidth: '140px'}}></img>
                         <h4 style={{marginBottom: '60'}}>Brownie Bites</h4>
                     </div>

@@ -114,6 +114,18 @@ code {
   text-align: center;
 }
 
+.Cones div {
+  margin-right: 30px;
+}
+
+.Flavors div {
+  margin-right: 30px;
+}
+
+.Toppings div {
+  margin-right: 30px;
+}
+
 .orderButtonMenu {
   text-decoration: none;
   color: white;
@@ -139,6 +151,12 @@ code {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right:200px;
+  padding-left:200px;
+  text-align: -webkit-center; 
+  width: '100%'
 }
 
 .orderContainer h1 {
@@ -267,51 +285,98 @@ code {
     display:  flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-right: 0;
   }
   
   .menuContainer img {
-    max-width: 150px;
-    transition: all .2s ease-in-out;
-    
+    width: 80%;
+    transition: none;
   }
   
   .menuContainer img:hover{
-    transform: scale(1.1); 
+    transform: none;
   }
   
   .menuContainer h1{
     color: #FFB0B0;
     font-family: 'Oswald', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
   }
   
   .menuContainer h4{
     color: #60e8f7;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 65px;
+    font-size: 10px;
   
   }
   .Cones{
     text-align: center;
   }
+
+  .Cones div {
+    margin-right: 0;
+  }
+
+  .Cones img {
+    max-width: 50%;
+  }
+
+  .Flavors div {
+    margin-right: 0;
+  }
+
+  .Flavors img {
+    width: 40%;
+  }
+
+  .Toppings img {
+    width: 80%;
+  }
+
+  .Bananas {
+    margin-right: 10px;
+  }
   
   .orderButtonMenu {
-    text-decoration: none;
-    color: white;
-    background-color: #FF9797;
-    font-family: 'Oswald', sans-serif;
-    padding: 5px 15px 5px 15px;
-    border-radius: 5px;
-    border:1px white solid;
-    box-shadow: 3px 3px 3px 3px rgba(136, 136, 136, 0.211);
-    font-size: 25px;
-    margin-bottom: 100px;
+    display: none;
   }
   
   .orderButtonMenu:hover {
-    background-color: white;
-    color: #FF9797;
-    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+    transition: none;
+  }
+
+  .orderContainer {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right:0px;
+    padding-left:0px;
+    text-align: -webkit-center; 
+    width: 90%;
+  }
+
+  
+  .orderContainer h1 {
+    color: #FFB0B0;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+    font-size: 20px;;
+  }
+  
+  .orderContainer Input {
+    margin-bottom: 0px;
+    max-width: 80%;
+  }
+  
+  .checkbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 12px;
   }
   
 
